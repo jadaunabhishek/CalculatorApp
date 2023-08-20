@@ -4,6 +4,8 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.google.android.material.button.MaterialButton;
@@ -14,8 +16,9 @@ import org.mozilla.javascript.Scriptable;
 public class MainActivity extends AppCompatActivity {
     String data;
     TextView output, input;
-    MaterialButton c,mod,divide,seven,eight,nine,multiply;
-    MaterialButton four,five,six,add,one,two,three,subtract,ac,zero,dot,equal;
+    Button mod,divide,seven,eight,nine,multiply;
+    ImageView c;
+    Button four,five,six,add,one,two,three,subtract,ac,zero,dot,equal;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
